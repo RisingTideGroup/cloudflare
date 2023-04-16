@@ -1,2 +1,2 @@
 FROM cloudflare/cloudflared:latest
-CMD ["tunnel", "run", "---token"]
+CMD ["tunnel", "run", " --token"]
