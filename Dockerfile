@@ -1,2 +1,2 @@
 FROM cloudflare/cloudflared:latest
-ENTRYPOINT ["tunnel", "run", "--token ${TUNNEL_TOKEN}"]
+CMD ["tunnel", "run", "--token ${TUNNEL_TOKEN}"]
