@@ -1,3 +1,3 @@
 FROM cloudflare/cloudflared:latest
 ENTRYPOINT ["cloudflared"]
-CMD ["tunnel", "--token"]
+CMD ["tunnel", "--token", "${TUNNEL_TOKEN}"]
