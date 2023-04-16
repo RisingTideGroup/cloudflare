@@ -1,2 +1,2 @@
 FROM cloudflare/cloudflared:latest
-CMD ["cloudflared", "tunnel --token helloworld"]
+CMD ["cloudflared", "tunnel run --token ${TUNNEL_TOKEN}"]
