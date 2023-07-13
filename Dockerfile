@@ -1,2 +1,2 @@
-FROM cloudflare/cloudflared:2023.4.1
+FROM cloudflare/cloudflared:latest
 CMD ["tunnel", "run", " --token"]
